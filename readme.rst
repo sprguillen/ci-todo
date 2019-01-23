@@ -68,3 +68,16 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+***************
+Setup
+***************
+
+Just place the directory on the directory of your local server.
+On your MySQL, create a table name *todo* although you can
+rename that to any table of your choice as long as you replace
+the name of the database on your configration file found on
+`application/config/database` and change the configuration based
+on your personal preference and existing mysql credentials.
+Run the migration by typing `http://localhost/todo/migrate`
+and now you're ready!
