@@ -1,0 +1,44 @@
+.header-logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+* {
+    font-family: "Lucida Console", Monaco, monospace
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.card-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.todo-row {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
